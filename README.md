@@ -25,6 +25,7 @@ npm install gulp-coffeelint-threshold
 # Usage
 ```js
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 var coffeelint = require('gulp-coffeelint');
 var coffeelintThreshold = require('gulp-coffeelint-threshold');
 
