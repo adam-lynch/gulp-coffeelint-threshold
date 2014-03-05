@@ -1,0 +1,28 @@
+{
+  "name": "gulp-coffeelint-threshold",
+  "version": "0.0.1",
+  "description": "A GulpJS plugin to catch the output from gulp-coffeelint and call a callback if the error or warning count is above a threshold you set",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adam-lynch/gulp-coffeelint-threshold"
+  },
+  "keywords": [
+    "gulpplugin",
+    "coffeelint",
+    "reporter"
+  ],
+  "author": "Adam Lynch <contact@adamlynch.ie>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adam-lynch/gulp-coffeelint-threshold/issues"
+  },
+  "homepage": "https://github.com/adam-lynch/gulp-coffeelint-threshold",
+  "dependencies": {
+    "through2": "~0.4.1",
+    "through": "~2.3.4"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
