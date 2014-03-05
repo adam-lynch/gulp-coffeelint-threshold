@@ -1,6 +1,6 @@
 gulp-coffeelint-threshold
 ==========
-
+A [GulpJS](http://github.com/gulpjs/gulp) plugin to catch the output from [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) and call a callback if the error or warning count is above a threshold you set.
 
 # Information
 <table>
@@ -9,7 +9,7 @@ gulp-coffeelint-threshold
 </tr>
 <tr>
 <td>Description</td>
-<td>A [GulpJS](http://github.com/gulpjs/gulp) plugin to catch the output from [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) and call a callback if the error or warning count is above a threshold you set.</td>
+<td>A GulpJS plugin to catch the output from gulp-coffeelint and call a callback if the error or warning count is above a threshold you set.</td>
 </tr>
 <tr>
 <td>Node Version</td>
