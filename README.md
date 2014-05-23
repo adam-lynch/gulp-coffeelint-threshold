@@ -32,7 +32,7 @@ var coffeelintThreshold = require('gulp-coffeelint-threshold');
 gulp.task('lint', function() {
     gulp.src('./*.coffee')
         .pipe(coffeelint())
-        .pipe(coffeelintThreshold(10, 0, function(numberOfWarnings, numberOfWarnings){
+        .pipe(coffeelintThreshold(10, 0, function(numberOfWarnings, numberOfErrors){
             gutil.beep();
             throw new Error('CoffeeLint failure; see above. Warning count: ' + numberOfWarnings
                 + '. Error count: ' + numberOfErrors + '.');
