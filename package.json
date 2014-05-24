@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/adam-lynch/gulp-coffeelint-threshold"
   },
+  "scripts": {
+    "test": "mocha test.js"
+  },
   "keywords": [
     "gulpplugin",
     "coffeelint",
@@ -19,10 +22,14 @@
   },
   "homepage": "https://github.com/adam-lynch/gulp-coffeelint-threshold",
   "dependencies": {
-    "through2": "~0.4.1",
     "through": "~2.3.4"
   },
   "engines": {
     "node": ">=0.9"
+  },
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "vinyl": "^0.2.3",
+    "chai": "^1.9.1"
   }
 }
