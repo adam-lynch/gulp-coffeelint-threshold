@@ -13,7 +13,7 @@ A [GulpJS](http://github.com/gulpjs/gulp) plugin to catch the output from [gulp-
 </tr>
 <tr>
 <td>Node Version</td>
-<td>>= 0.8</td>
+<td>>= 0.9</td>
 </tr>
 </table>
 
