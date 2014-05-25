@@ -14,6 +14,7 @@ module.exports = function(maxWarnings, maxErrors, callbackOnFailure){
     }
 
     if(checkForWarnings){
+
         var warningThreshold = maxWarnings === -1 ? null : maxWarnings;
     }
 
