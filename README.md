@@ -1,4 +1,4 @@
-gulp-coffeelint-threshold
+gulp-coffeelint-threshold [![Build Status](https://travis-ci.org/adam-lynch/gulp-coffeelint-threshold.svg?branch=master)](https://travis-ci.org/adam-lynch/gulp-coffeelint-threshold)
 ==========
 A [GulpJS](http://github.com/gulpjs/gulp) plugin to catch the output from [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) and call a callback if the error or warning count is above a threshold you set.
 
