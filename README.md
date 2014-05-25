@@ -42,6 +42,7 @@ gulp.task('lint', function() {
 gulp.task('default', ['lint']);
 ```
 
+
 ## Arguments
 
 `coffeelintThreshold(maxWarnings, maxErrors, callbackOnFailure)`
