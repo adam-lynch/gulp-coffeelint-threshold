@@ -1,4 +1,4 @@
-gulp-coffeelint-threshold [![Build Status](https://travis-ci.org/adam-lynch/gulp-coffeelint-threshold.svg?branch=master)](https://travis-ci.org/adam-lynch/gulp-coffeelint-threshold)
+gulp-coffeelint-threshold [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 ==========
 A [GulpJS](http://github.com/gulpjs/gulp) plugin to catch the output from [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) and call a callback if the error or warning count is above a threshold you set.
 
@@ -49,3 +49,13 @@ gulp.task('default', ['lint']);
 - `maxWarnings`, a number. Set to `-1` if you don't want any warning threshold.
 - `errorWarnings`, a number. Set to `-1` if you don't want any warning threshold.
 - `callbackOnFailure(numberOfWarnings, numberOfWarnings)`, a function that gets called when the number of warnings or errors are over their respective thresholds you have set. It gets passed the number of warnings and errors as arguments.
+
+
+[npm-url]: https://npmjs.org/package/gulp-coffeelint-threshold
+[npm-image]: http://img.shields.io/npm/v/gulp-coffeelint-threshold.svg?style=flat
+
+[travis-url]: http://travis-ci.org/adam-lynch/gulp-coffeelint-threshold
+[travis-image]: http://img.shields.io/travis/adam-lynch/gulp-coffeelint-threshold.svg?style=flat
+
+[depstat-url]: https://david-dm.org/adam-lynch/gulp-coffeelint-threshold
+[depstat-image]: https://david-dm.org/adam-lynch/gulp-coffeelint-threshold.svg?style=flat
