@@ -62,5 +62,8 @@ gulp.task('default', ['lint']);
 [travis-url]: http://travis-ci.org/adam-lynch/gulp-coffeelint-threshold
 [travis-image]: http://img.shields.io/travis/adam-lynch/gulp-coffeelint-threshold.svg?style=flat
 
+[appveyor-url]: https://ci.appveyor.com/project/adam-lynch/gulp-coffeelint-threshold/branch/master
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/tradq3vg1hoah36j/branch/master?svg=true
+
 [depstat-url]: https://david-dm.org/adam-lynch/gulp-coffeelint-threshold
 [depstat-image]: https://david-dm.org/adam-lynch/gulp-coffeelint-threshold.svg?style=flat
