@@ -1,5 +1,10 @@
-gulp-coffeelint-threshold [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
+gulp-coffeelint-threshold 
 ==========
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Windows Build Status][appveyor-image]][appveyor-url] [![Dependency Status][depstat-image]][depstat-url] 
+
+---
+
 A [GulpJS](http://github.com/gulpjs/gulp) plugin to catch the output from [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) and call a callback if the error or warning count is above a threshold you set.
 
 # Information
